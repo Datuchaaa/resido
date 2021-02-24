@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'muli' sans-serif;
+    text-decoration: none;
+    font-family: 'Muli',sans-serif;
+
+}
+@import "colors/text-color.scss";
+
+
+        // =====================  Logo nav Menu ===================== //
+
+.container{
+    width: 1320px;
+    margin: auto;
+}
+
+
+.header-section{
+    width: 100%;
+    background-color: #fff;
+    height: 83px;
+    padding-top: 15px;
+.menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    .logo{
+        width: 150px;
+        height: 41px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 17px 15px;
+        font-size: 24px;
+        margin-right: 1rem;
+        cursor: pointer;
+        
+
+    }
+}
+    .nav-menu{
+        padding-top: 17px;
+        padding-left: 40px;
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        cursor: pointer;
+    }
+    
+     .item{
+        font-family: 'Muli',sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: $text-color;
+     }
+     .active{
+        color: $hvoer-color;
+    }
+    .item:hover{
+        color: $hvoer-color;
+        transition: 0.5s;
+    }
+   .logins{
+       width: 283px;
+       justify-content: space-between;
+       list-style: none;
+       position: absolute;
+       display: flex;
+       text-align: center;
+       align-items: center;
+       flex-direction: row;
+       right: 0;
+       
+       
+        .image{
+            background-size: cover;
+            background-position: center center;
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: row;
+            color: $text-color;
+            h2{ 
+                width: 60px;
+                font-size: 15px;
+                padding-left: 10px;
+                color: $hvoer-color;
+            }
+           
+        }
+       .item-right{
+           width: 110px;
+           height: 50px;
+           color: #fff;
+           background-color:$muqi-lurji ;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: row;
+           border-radius: 4px;
+           font-weight: 600;
+           cursor: pointer;
+           
+           .fa-user{
+               padding-right: 5px;
+           }
+       } 
+      
+   } 
+}
+    // ===================== Logo nav Menu  ===================== //
+
+  // ===================== image-section ===================== //
+.image-section{
+    width: 100%;
+    height: 775px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5em 0;
+   .search-panel{
+       width: 540px;
+       height: 611px;
+       background-color: #fff;
+       border-radius: 10px;
+       padding: 30px 40px 40px;
+       box-shadow: 0px 20px 30px  rgba(0, 22, 84, 0.15);
+       h1{
+        font-weight: 800;
+        line-height: 1.3;
+        font-size: 35px;
+        color: #2D3954;
+        padding-bottom: 17px;
+       }
+      .input-icon{
+          position: relative;
+          .control{
+              width: 100%;
+              height: 60px;
+              background-color: #edf1fb;
+              border-radius: 4px;
+              border: none;
+              outline: none;
+              font-size: 15px;
+              padding-left: 55px;
+          }
+          .image{
+              position: absolute;
+              left: 20px;
+              top: 35%;
+
+          }
+      } 
+   } 
+}
+// ===================== image-section ===================== //
+   
+// ===================== Step How To Use Start =====================-//
+
+.work-section{
+    width: 100%;
+    height: 506px;
+    padding: 80px 0px;
+   .text-center{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 60px;
+  .text{
+    width: 776px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2{
+        font-size: 29px;
+        line-height: 1.2;
+        color: #2D3954;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: 'Jost'sans-serif;
+    }
+    p{
+        margin-bottom: 5px;
+        line-height: 1.7;
+     }
+    }
+  }
+  .row{
+      width: 1320px;
+      height: 224px;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .item{
+          position: relative;
+          margin-top: 30px;
+          width: 406px;
+          height: 193px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding-right: calc(var(--bs-gutter-x)/ 2);
+          padding-left: calc(var(--bs-gutter-x)/ 2);
+          margin-top: var(--bs-gutter-y);
+          .arrow{
+            position: absolute;
+            width: auto;
+            height: auto;
+           
+            left: 100%;
+            top: 40px;
+          }
+          h3{
+            padding-top: 20px;
+            color: #2D3954;
+            font-weight: 700;
+        }
+        p{
+            padding-top: 20px;
+            color: #2D3954;
+            margin-bottom: 0;
+            font-size: 14px;
+            
+        }
+         .cube{
+            background: rgba(15,202,152,0.1);
+            border-color: rgba(15,202,152,0.3);
+            color: #29cf8d!important;
+            border-radius: 20px;
+            width: 85px;
+            height: 85px;
+            border: solid 1px #88f5c9;
+            transform: rotate(45deg);
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+           .ti-receipt{
+               font-size: 30px;
+               transform: rotate(316deg);
+               
+           } 
+       
+           
+           .text-blue{
+               font-size: 30px;
+               color: #1d96ff;
+               transform: rotate(316deg);
+           }
+            .ti-user{
+                font-size: 30px;
+                transform: rotate(316deg);
+            }
+        
+         } 
+         .yellow{
+            background: rgba(255,143,0,0.1);
+            border-color: rgba(255,143,0,0.3);
+            color: #ff8f00!important;
+           
+         }
+         .blue{
+            color: #1d96ff!important;
+            background: rgba(29,150,255,0.1);
+            border-color: rgba(29,150,255,0.3);
+         }
+        
+      }
+  }
+}
+
+
+
+
+
+
+// ===================== Step How To Use Start =====================-//
+
+// ===================== Explore Good Place ===================== //
+
+.explore-section{
+    width: 100%;
+    height: 1315px;
+    padding: 80px 0px;
+    background-color: #f5faff;
+    .text-center{
+        display: flex;
+        justify-content: center;
+   .text{
+     width: 776px;
+     height: 88px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     margin-bottom: 2rem;
+     h2{
+         font-size: 29px;
+         line-height: 1.2;
+         color: #2D3954;
+         font-weight: 700;
+         text-transform: capitalize;
+         font-family: 'Jost'sans-serif;
+     }
+     p{
+         margin-bottom: 5px;
+         line-height: 1.7;
+         
+      }
+     }
+   } 
+   .row{
+       
+       width: 1320px;
+       height: 977px;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       
+       
+     .item{
+        position: relative;
+        width: 416.01px;
+        height: 488px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        border-radius: .5rem;
+        background: #fff;
+        box-shadow: 0px 0px 20px 0px rgba(62, 28, 131, 0.1);
+        overflow: hidden;
+      
+       
+        
+       .listing{
+        width: 416px;
+        
+        
+        .img{
+            width: 416px;
+            height: 240px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            
+            
+            
+        }
+       } 
+        .rent{
+            position: relative;
+            padding: 1rem 1.5rem;
+            width: 100%;
+           .price{
+               position: absolute;
+               right: 55px;
+               top: 36%;
+               color: #1266e3;
+               font-weight: 600;
+               font-size: 22px;
+               
+           }
+            
+
+            .banyon{
+                display: flex;
+                flex-direction: row;
+                span{
+                    color: #2D3954;
+                }
+                h4{
+                    padding-top: 5px;
+                    color: #2D3954;
+                }
+                h4:hover{
+                    color: #1266e3;
+                    transition: 0.3s;
+                }
+               .img{
+                   margin: 5px 5px;
+                   background-size: 100%;
+                   width: 18px;
+                   height: 18px;
+                   background-repeat: no-repeat;
+               } 
+            }
+        }
+        
+       }
+   }
+}
+
+
