@@ -5,6 +5,7 @@
     font-family: 'muli' sans-serif;
     text-decoration: none;
     font-family: 'Muli',sans-serif;
+    ;
 
 }
 @import "colors/text-color.scss";
@@ -334,7 +335,7 @@
      .item{
         position: relative;
         width: 416.01px;
-        height: 488px;
+        height: 457px;
         margin-bottom: 30px;
         margin-right: 10px;
         border-radius: .5rem;
@@ -346,7 +347,7 @@
         
        .listing{
         width: 416px;
-        
+        cursor: pointer;
         
         .img{
             width: 416px;
@@ -396,9 +397,83 @@
                } 
             }
         }
-        
+        .price-features{
+            padding: .1rem 1.5rem .6rem;
+            display: flex;
+            flex-wrap: wrap;
+          .list-features{
+            margin-top: 20px;
+            justify-content: end;
+           .card-info{
+            width: auto;
+            flex: inherit;
+            display: inline-flex;
+            margin-right: 1.2rem;
+            align-items: center;
+            
+            .icon{
+                width: 25px;
+                height: 25px;
+                background: #edf1f9;
+                border-radius: 50%;
+                margin-right: 7px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .img{
+                background-size: 100%;
+                width: 13px;
+                height: 13px;
+                background-repeat: no-repeat;
+            }
+           } 
+         } 
+        }
+        .listining-footer{
+            
+            padding: 1rem 1.5rem;
+            margin-top: 1rem;
+            border-top: 1px solid #e4e8f3;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            
+            .footer-first{
+               display: flex;
+               flex: 1;
+               .foot-location{
+                   display: flex;
+                   color: #4e5c79;
+                   font-weight: 400
+               }
+                
+                .img{
+                    margin-right: 5px;
+                    width: 18px;
+                    height: 22px;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    
+                }
+                
+            }
+            .footer-flex{
+                a{
+                    padding: 4px 18px;
+                    color: #fff!important;
+                    background: #0fca98;
+                    border-radius: 50px;
+                    height: 30px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 19px;
+                }
+            }
+        }
        }
    }
 }
 
-
+// ===================== Explore Good Place ===================== //
